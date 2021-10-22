@@ -17,7 +17,7 @@ Node 기반의 자료구조
 ### \# 트리를 구성하고 있는 요소들
 
 <br />
-<p align="center"><img src="images/tree.png" alt="tree" width="400"/></p>
+<p align="center"><img src="images/tree.png" alt="tree" width="450"/></p>
 
 <br />
 
@@ -59,7 +59,7 @@ Node 기반의 자료구조
 <br />
 <br />
 
-<p align="center"><img src="images/binary_tree.png" alt="binary_tree" width="240" /></p>
+<p align="center"><img src="images/binary_tree.png" alt="binary_tree" width="300" /></p>
 <br />
   
 ### 이진 트리의 종류
@@ -123,7 +123,7 @@ Node 기반의 자료구조
 
 <br />
 
-<p align="center"><img src="images/traverse.png" alt="traverse" width="600" /></p>
+<p align="center"><img src="images/traverse.png" alt="traverse" width="100%" /></p>
 
 <br />
 <br />
@@ -139,7 +139,7 @@ Node 기반의 자료구조
 
 <br />
 
-<p align="center"><img src="images/delete.png" alt="delete node" width="600" /></p>
+<p align="center"><img src="images/delete.png" alt="delete node" width="100%" /></p>
 
 <br />
 <br />
