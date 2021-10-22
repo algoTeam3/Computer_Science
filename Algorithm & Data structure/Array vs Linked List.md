@@ -44,5 +44,5 @@
 |종류|1차원, 2차원, 다차원|선형, 이중, 원형|
 
 # References
-https://www.geeksforgeeks.org/linked-list-vs-array/
-https://www.javatpoint.com/ds-array-vs-linked-list
+- https://www.geeksforgeeks.org/linked-list-vs-array/
+- https://www.javatpoint.com/ds-array-vs-linked-list
