@@ -17,7 +17,7 @@ Node 기반의 자료구조
 ### \# 트리를 구성하고 있는 요소들
 
 <br />
-<p align="center"><img src="images/tree.png" alt="tree" width="450"/></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/66818228/139432435-10150f2f-abae-4eaf-8130-d108f2aa9caa.png" alt="tree" width="450"/></p>
 
 <br />
 
@@ -59,8 +59,8 @@ Node 기반의 자료구조
 <br />
 <br />
 
-<p align="center"><img src="images/binary_tree.png" alt="binary_tree" width="300" /></p>
-<br />
+<p align="center"><img src="https://user-images.githubusercontent.com/66818228/139432483-16f7dc56-827b-456c-a031-c3ebc152574e.png" alt="binary_tree" width="300" /></p>
+
   
 ### 이진 트리의 종류
 
@@ -73,7 +73,8 @@ Node 기반의 자료구조
      → Rebalancing으로 개선된 트리: AVL Tree, Reb-Black Tree 등
 
 <br />
-<p align="center"><img src="images/tree_type.png" alt="tree_type" width="100%" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/66818228/139432525-21f141ab-d119-4421-b9d2-1b336ffffe2e.png" alt="tree_type" width="100%" /></p>
+
 <br />
 <br />
 <br />
@@ -123,7 +124,7 @@ Node 기반의 자료구조
 
 <br />
 
-<p align="center"><img src="images/traverse.png" alt="traverse" width="100%" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/66818228/139432550-aa7489ec-c013-4985-b702-cafe9e909c45.png" alt="traverse" width="100%" /></p>
 
 <br />
 <br />
@@ -139,7 +140,9 @@ Node 기반의 자료구조
 
 <br />
 
-<p align="center"><img src="images/delete.png" alt="delete node" width="100%" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/66818228/139432564-856ab592-bbd1-4866-a3dd-b6f426491220.png" alt="delete node" width="100%" /></p>
+
+
 
 <br />
 <br />
