@@ -7,22 +7,24 @@
 - 그러나 웹사이트에서 사용자가 데이터베이스와 연결되어있을만한 부분을 생각하게 되면서 문제 발생
 ### 상황 예
 - 로그인 할 때 사용자 입력이 큰따옴표로 감싸진 문자열 형태로 들어감
-<<사진>>
+  - <img src="https://user-images.githubusercontent.com/68576770/139428498-32e22f95-2133-46d1-897c-096e411141c2.jpg" width="200"><br>
 - 로그인 한 후 사용자 이름을 받아오는 웹사이트라면, 아래와 같은 쿼리문이 내부적으로 동작
     - 사용자가 id로 <b>testid</b> 를 입력
-![image](https://user-images.githubusercontent.com/68576770/139180713-4f9cad48-a316-4e49-b986-e63ec6ea14e4.png)
+    - ![image](https://user-images.githubusercontent.com/68576770/139180713-4f9cad48-a316-4e49-b986-e63ec6ea14e4.png)
   - 쿼리 결과
-![image](https://user-images.githubusercontent.com/68576770/139181062-caa3f8b8-5547-463e-832f-7512698870fc.png)
+    - ![image](https://user-images.githubusercontent.com/68576770/139181062-caa3f8b8-5547-463e-832f-7512698870fc.png)
 - 만약 로그인 과정 중 사용자가 의도적으로 sql문을 주입한다면?
   - 사용자가 id로 <b>testid"; select * from ssafy_member sm;#</b> 를 입력
-![image](https://user-images.githubusercontent.com/68576770/139239260-ad9ff6ca-7fd8-4a1b-970f-33e5cfdc45d5.png)
+    - ![image](https://user-images.githubusercontent.com/68576770/139239260-ad9ff6ca-7fd8-4a1b-970f-33e5cfdc45d5.png)
   - 쿼리 결과
-![image](https://user-images.githubusercontent.com/68576770/139239329-82df4866-79b3-4efd-a635-7b6977e0afad.png)
+    - ![image](https://user-images.githubusercontent.com/68576770/139239329-82df4866-79b3-4efd-a635-7b6977e0afad.png)
 # or 1 = 1
 - 사용자가 input에 or 1 = 1이 들어가면 회원이 아니어도 로그인하는 sql문이 무조건 실행된다.
-![image](https://user-images.githubusercontent.com/68576770/139244162-1d5ea0db-4f0b-4541-91c8-12884c42cad0.png)
+  - <img src="https://user-images.githubusercontent.com/68576770/139428798-78688358-5489-4b9a-8223-b27cfdd90b98.jpg" width="200"><br>
+- 쿼리문
+  - ![image](https://user-images.githubusercontent.com/68576770/139244162-1d5ea0db-4f0b-4541-91c8-12884c42cad0.png)
 - 쿼리문이 무조건 실행되니까 로그인에 성공한다.
-===
+---
 - 사람들의 비밀번호, 계좌 등 민감한 정보를 볼 수 있음
 - 웹 사이트가 이런 보안 취약점을 가지고 있다면 drop all databases; drop table users; 등 브라우저 이용자가 원하는 sql문을 주입해서 데이터베이스를 없앨 수도 있음
 # MyBatis에서 Sql injection 
