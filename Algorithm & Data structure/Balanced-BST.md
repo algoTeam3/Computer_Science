@@ -20,7 +20,7 @@
 
 <br />
 
-<p align="center"><img src="images/red-black_tree.png" alt="red-black tree" width="300" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/66818228/139432719-a0aac19c-57f7-40df-b492-42623a547ee0.png" alt="red-black tree" width="300" /></p>
 
 <br />
 <br />
@@ -60,7 +60,7 @@ Red-Black Tree는 균형을 유지하기 위해 다음의 규칙을 만족한다
 <br />
 <br />
 
-<p align="center"><img src="images/red-black_tree_insert.png" alt="red-black tree" width="450" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/66818228/139432735-112c6b50-a237-4f47-b2e4-7ea6565d9416.png" alt="red-black tree" width="450" /></p>
 
 <br />
 <br />
@@ -81,7 +81,7 @@ Balance Factor(BF)로 맞추는 균형
 
 <br />
 
-<p align="center"><img src="images/avl_tree.png" alt="avl tree" width="270" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/66818228/139432751-f4dafccf-1734-41b9-872e-1df93f4600a9.png" alt="avl tree" width="270" /></p>
 
 <br />
 
