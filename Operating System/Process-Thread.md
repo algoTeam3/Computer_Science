@@ -10,7 +10,7 @@ Thread : 한 프로세스 안에서 진행되는 여러 작업의 갈래
 ## Program
 
 #### 어떤 작업을 위해 실행할 수 있는 파일
-<br />
+
 
 1. HDD (Hard Disk Drive)에 프로그램이 저장되어 있다.
 
@@ -18,10 +18,8 @@ Thread : 한 프로세스 안에서 진행되는 여러 작업의 갈래
 
 3. CPU가 해석하고 실행한다.
 
-<br />
 <p align="center"><img src="https://user-images.githubusercontent.com/66818228/141813998-d9fc8384-0421-4ed3-a8ba-f26961bcf268.png" alt="program" width="500"/></p>
 
-<br />
 
 ## Process
 
@@ -34,7 +32,7 @@ Thread : 한 프로세스 안에서 진행되는 여러 작업의 갈래
 - 다른 프로세스의 변수나 자료구조에 접근하려면 IPC 통신이 필요하다.
 
 <br />
-<p align="center"><img src="https://user-images.githubusercontent.com/66818228/141814043-0eb5496a-7dcc-4d43-b942-687b3618cc9d.png" alt="process memory" width="250"/></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/66818228/141814043-0eb5496a-7dcc-4d43-b942-687b3618cc9d.png" alt="process memory" width="200"/></p>
 
 - code : 실행 명령을 포함하는 메모리거나 목적 파일에 있는 프로그램 영역 / 읽기 전용
 - data : 프로그램의 가상 주소 공간 / 전역 변수, 스태틱 변수 / 읽기, 쓰기 가능
@@ -54,7 +52,7 @@ Thread : 한 프로세스 안에서 진행되는 여러 작업의 갈래
 - 프로세스의 작업 진행 상황을 저장하고 있어서, CPU가 PCB를 참고하여 작업을 수행한다.
 
 <br />
-<p align="center"><img src="https://user-images.githubusercontent.com/66818228/141814086-589ccd4a-95ff-4c91-bb88-5873f709d452.png" alt="pcb" width="300"/></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/66818228/141814991-b9cb3cc0-2cba-45da-b002-78f68dea3ba6.png" alt="pcb" width="300"/></p>
 
 
 - Process ID, PID : 프로세스 식별자
@@ -228,5 +226,4 @@ PC에는 스레드가 어디까지 작업을 수행했는지에 대해 알고 �
   - **병렬성**(Parallelism)을 띤다.
   - 기계적 성질
 
-<br />
 <p align="center"><img src="https://user-images.githubusercontent.com/66818228/141814327-6bbfabba-a473-4382-974d-80dc216d4649.png" alt="multi core" width="600"/></p>
