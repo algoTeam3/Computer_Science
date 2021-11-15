@@ -9,10 +9,7 @@ Thread : 한 프로세스 안에서 진행되는 여러 작업의 갈래
 
 ## Program
 
-<br />
-
 #### 어떤 작업을 위해 실행할 수 있는 파일
-
 <br />
 
 1. HDD (Hard Disk Drive)에 프로그램이 저장되어 있다.
@@ -27,8 +24,6 @@ Thread : 한 프로세스 안에서 진행되는 여러 작업의 갈래
 <br />
 
 ## Process
-
-<br />
 
 #### 프로그램과 프로그램의 상태가 메모리 상에서 실행되는 작업 단위
 
@@ -49,8 +44,6 @@ Thread : 한 프로세스 안에서 진행되는 여러 작업의 갈래
 <br />
 
 ### PCB (Process Control Block)
-
-<br />
 
 #### 특정 프로세스의 중요한 정보를 포함하는 OS 커널의 자료 구조
 
@@ -77,15 +70,10 @@ Thread : 한 프로세스 안에서 진행되는 여러 작업의 갈래
 <br />
 
 ## Multi Process
+#### 하나의 응용프로그램을 여러 개의 프로세스로 구성해서 각 프로세스가 하나의 작업을 처리하도록 하는 것
 
 <br />
 <p align="center"><img src="https://user-images.githubusercontent.com/66818228/141814118-ecd7a0d8-3245-497e-8cf0-00022a78ba0e.png" alt="multi process" width="600"/></p>
-
-<br />
-
-- 하나의 응용프로그램을 여러 개의 프로세스로 구성해서 각 프로세스가 하나의 작업을 처리하도록 하는 것
-
-- Ex) 크롬
 
 <br />
 
@@ -130,16 +118,14 @@ Thread : 한 프로세스 안에서 진행되는 여러 작업의 갈래
 
 <br />
 
-### => 경량화된 프로세스인 **Thread** 등장!
+#### => 경량화된 프로세스인 **Thread** 등장!
 
 <br />
 <br />
 
 ## Thread
 
-<br />
-
-### 프로세스의 실행 단위
+#### 프로세스의 실행 단위
 
 <br />
 
@@ -152,9 +138,8 @@ Thread : 한 프로세스 안에서 진행되는 여러 작업의 갈래
 
 <br />
 
-### :heavy_check_mark: Check Point
+#### :heavy_check_mark: Check Point
 
-<br />
 <details>
 <summary> 스택을 스레드마다 독립적으로 할당하는 이유</summary>
 <div markdown="1">
@@ -168,8 +153,6 @@ Thread : 한 프로세스 안에서 진행되는 여러 작업의 갈래
 
 </div>
 </details>
-
-<br />
 
 <details>
 <summary>PC 레지스터가 스레드마다 독립적으로 사용되는 이유</summary>
@@ -193,9 +176,7 @@ PC에는 스레드가 어디까지 작업을 수행했는지에 대해 알고 �
 
 ## Multi Thread
 
-<br />
-
-### 하나의 응용 프로그램을 여러 개의 스레드로 구성해서 각 스레드가 하나의 작업을 처리하도록 하는 것
+#### 하나의 응용 프로그램을 여러 개의 스레드로 구성해서 각 스레드가 하나의 작업을 처리하도록 하는 것
 
 <br />
 
@@ -223,9 +204,7 @@ PC에는 스레드가 어디까지 작업을 수행했는지에 대해 알고 �
 
 <br />
 
-### :heavy_check_mark: Check Point
-
-<br />
+#### :heavy_check_mark: Check Point
 
 <details>
 <summary>Thread-safe</summary>
