@@ -9,6 +9,8 @@
 
 - SSL을 사용함으로써 데이터 보안 문제를 해결한 프로토콜
 - **공개키** 암호화 방식으로 텍스트 암호화
+- [https 통신 흐름 참고](https://jeong-pro.tistory.com/89)
+
 
 ![https](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FTIQPl%2Fbtq0kDsepHd%2FUzzv6JatoLtsDsdvXFZmsk%2Fimg.png)
 
@@ -27,6 +29,15 @@
 - 동일한 키를 주고 받아 속도가 빠르나 해킹 위험 노출
 
 ![대칭키](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FW94Qi%2Fbtq0teEbVJK%2FWKelKm2z3UqPpQOCQ2KKL0%2Fimg.png)
+
+## SSL 시초
+```
+1. A가 B의 공개키로 암호화 통신에 사용할 대칭키를 암호화하고 B에게 보냄
+2. B는 암호문을 받고, 자신의 비밀키로 복호화함
+3. B는 A로부터 얻은 대칭키로 A에게 보낼 평문을 암호화하여 A에게 보냄
+4. A는 자신의 대칭키로 암호문을 복호화함
+5. 앞으로 이 대칭키로 암호화를 통신함
+```
 
 </br>
 
