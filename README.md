@@ -5,9 +5,9 @@
 
 ## 🦘 Member
 
-|[<img src="https://avatars.githubusercontent.com/u/80505099?v=4" width="230px;" alt=""/>](https://github.com/BusChanny) |[<img src="https://avatars.githubusercontent.com/u/68576770?v=4" width="250" >](https://github.com/Chae-EunJeong)|[<img src="https://avatars.githubusercontent.com/u/51963264?v=4" width="250" >](https://github.com/DECOY-DUCK)|[<img src="https://avatars.githubusercontent.com/u/53832553?v=4" width="230" >](https://github.com/Haeun-Jung)|
-|:---:|:---:|:---:|:---:|
-|[BusChanny](https://github.com/BusChanny) |[Chae-EunJeong](https://github.com/Chae-EunJeong) |[DECOY-DUCK](https://github.com/DECOY-DUCK)| [Haeun-Jung](https://github.com/Haeun-Jung)|
+|[<img src="https://avatars.githubusercontent.com/u/80505099?v=4" width="230px;" alt=""/>](https://github.com/BusChanny) |[<img src="https://avatars.githubusercontent.com/u/68576770?v=4" width="250" >](https://github.com/Chae-EunJeong)|[<img src="https://avatars.githubusercontent.com/u/51963264?v=4" width="250" >](https://github.com/DECOY-DUCK)|[<img src="https://avatars.githubusercontent.com/u/53832553?v=4" width="230" >](https://github.com/Haeun-Jung)|[<img src="https://avatars.githubusercontent.com/u/60870438?v=4" width="230" >](https://github.com/minjuPark23)|
+|:---:|:---:|:---:|:---:|:---:|
+|[BusChanny](https://github.com/BusChanny) |[Chae-EunJeong](https://github.com/Chae-EunJeong) |[DECOY-DUCK](https://github.com/DECOY-DUCK)| [Haeun-Jung](https://github.com/Haeun-Jung)|[minjuPark23](https://github.com/minjuPark23)|
 
 <br>  
 
