@@ -25,5 +25,6 @@
 
 ## 📢 참조
 - [tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer)
-- [참조 면접 질문 사이트](https://velog.io/@hygoogi/%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8-%EB%AA%A8%EC%9D%8C)
+- [tech-interview-for-beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)
+- [참조 면접 질문 사이트1](https://velog.io/@hygoogi/%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8-%EB%AA%A8%EC%9D%8C)
 <br>  
