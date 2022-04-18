@@ -86,3 +86,52 @@ _네트워크: 최종 목적지까지의 패킷 전달_
 ![데이터구성](https://user-images.githubusercontent.com/60870438/163715115-80636ac1-53f3-43b5-bcba-4300487d618e.png)
 
 참고: [OSI 7계층 정리](https://liveyourit.tistory.com/186)
+
+## TCP 3-way handshake
+
+-   TCP는 장치들 사이에 논리적인 접속을 성립하기 위해 three-way handshake를 사용한다.
+-   TCP/IP 프로토콜을 이용해서 통신을 하는 응용프로그램이 데이터를 전송하기 전에 정확한 전송을 보장하기 위해 상대방 컴퓨터와 사전에 세션을 수립하는 과정을 의미한다.
+
+1.  Client -> Server: SYN 패킷 발송 후 응답 기다림
+2.  Server -> Client: 요청을 수락하는 ACK와 SYN flag 설정된 패킷을 발송 후 응답 기다림
+3.  Client -> Server: ACK를 보내고 Server의 상태가 Established 되면 연결이 이뤄진다.
+
+-   이는 TCP 접속을 하기위한 필수 절차
+-   SYN: synchronize sequence numbers (순차 일련 번호)
+-   ACK: acknowledgement
+
+#### 역할
+
+-   양쪽 모두 데이터를 전송할 준비가 된 것을 보장하고, 실제 전달 시작 전 다른 쪽의 정보를 알 수 있다.
+-   양쪽 모두 상대편에 대한 초기 순차 일련번호를 얻을 수 있도록 한다.
+-   응용 프로그램이 데이터 전송하기 전에 먼저 정확한 전송을 보장하기 위해 사전에 세션을 수립하는 과정.
+
+![3way](https://user-images.githubusercontent.com/60870438/163702441-0d4bbd9a-1876-4e5a-9528-7fde7f8f502a.png)
+
+### 과정
+
+1.  클라이언트는 서버에 접속을 요청하는 SYN 패킹을 보냄
+    -   이때 클라이언트는 SYN/ACK 응답을 기다리는 SYN\_SENT 상태로 기다림
+2.  서버는 SYN 요청을 받고 클라이언트에게 요청을 수락하는 ACK와 SYN flag가 설정된 패킷을 발송
+    -   해당 클라이언트가 ACK를 응답하기를 기다림. 서버는 SYN\_RECEIVED 상태
+3.  클라이언트는 서버에 ACK를 보내고 이후부터는 연결이 이루어지고 데이터가 이동한다.
+    -   이때 서버의 상태는 ESTABLISHED
+    -   이는 신뢰성 있는 연결을 제공한다.
+
+## TCP 4-way handshake
+
+-   3-way는 TCP의 연결을 초기화 할 때 사용하고, 4-way는 세션을 종료하기 위해 수행한다.
+
+![4way](https://user-images.githubusercontent.com/60870438/163702439-7c9e325a-e1d8-4993-8b13-493d0a7d40da.png)
+
+### 과정
+
+1.  클라이언트가 연결을 종료하겠다는 FIN flag를 서버에 전송
+2.  서버는 일단 확인(ACK) 메시지를 보내고 자신의 통신이 끝날 때까지 기다린다.
+    -   이때 클라이언트는 서버의 통신이 끝나기를 기다리는 TIME\_WAIT 상태
+3.  서버가 통신이 끝났으면 연결이 종료되었다고 클라이언트에게 FIN flag 전송
+4.  클라이언트는 확인 ACK 메시지 전송
+
+-   TIME\_WAIT: 만약, FIN flag 전송 전에 패킷이 라우팅 지연, 패킷 유실로 인한 재전송 등으로 FIN flag 보다 늦게 도착하는 경우, 데이터 유실이 발생할 수 있다. 이를 대비해 클라이언트는 서버로 부터 FIN flag를 받더라도 일정시간 동안 세션을 남겨두고 패킷을 기다린다.
+
+참고: [TCP-HandShake](https://mindnet.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-22%ED%8E%B8-TCP-3-WayHandshake-4-WayHandshake)
