@@ -1,5 +1,5 @@
 # 📌 예상 질문
-> [답변 보러가기](https://github.com/algoTeam3/Computer_Science/blob/main/Network%20%26%20Web/OSI-7_Tcp-3way-4way/Question.md)
+> [답변 보러가기](https://github.com/algoTeam3/Computer_Science/blob/main/Network%20%26%20Web/OSI-7_Tcp-3way-4way/Answer.md)
 
 <br>
 
