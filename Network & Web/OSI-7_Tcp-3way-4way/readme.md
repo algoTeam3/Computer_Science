@@ -1,4 +1,7 @@
 # 📌 예상 질문
+> [답변 보러가기](https://github.com/algoTeam3/Computer_Science/blob/main/Network%20%26%20Web/OSI-7_Tcp-3way-4way/Question.md)
+
+<br>
 
 ## ☑ OSI 7계층
 
@@ -96,8 +99,7 @@ Media Access Control는 네트워크 통신을 위한 물리적 주소로 사용
 
 TCP는 신뢰성 기반 연결 지향 프로토콜인 반면 UDP는 신뢰성 없는 비연결 지향 프로토콜입니다. TCP는 연결 된 이후 3WayHandShake를 통해 데이터를 신뢰성을 보장하며 주고 받는 반면 UDP는 데이터 손실을 신경쓰지 않고 전송하는 차이점이 있습니다.
 
-
----
+<br>
 
 ### 참고
 > [네트워크 면접 예상 질문](https://hyonee.tistory.com/136)  
