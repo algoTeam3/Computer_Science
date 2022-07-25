@@ -46,24 +46,27 @@ HTTP를 효과적으로 이용하는 기술로, 새로운 웹페이지로 이동
 
 # 웹 소켓 이전의 비슷한 기술
 
-✔ `Polling` : 서버로 일정 주기 요청 송신
-![Polling](https://miro.medium.com/max/646/1*hy2JMy80APwX-PrUc0MytQ.png)
+✔ `Polling` : 서버로 일정 주기 요청 송신  
+
+![Polling](http://2.bp.blogspot.com/-cvWY81etsao/ViZSUVxywxI/AAAAAAAAMHo/wxrd6dIntM8/s320/HttpPolling.gif)
 
 - 실시간 통신에서는 언제 통신이 발생할지 예측 불가능
 - 불필요한 요청과 연결
 
 <br>
 
-✔ `Long Polling` : Polling의 단점을 최소화 하기 위해 서버에서 조금 더 대기하고 이벤트 받기
-![LongPolling](https://www.researchgate.net/profile/Ali-Mesbah/publication/220538183/figure/fig4/AS:305611469279248@1449874860393/Long-polling-mode-for-C-OMET.png)
+✔ `Long Polling` : Polling의 단점을 최소화 하기 위해 서버에서 조금 더 대기하고 이벤트 받기  
+
+![LongPolling](http://2.bp.blogspot.com/-eL9rxi8th2A/ViZSW0ggEwI/AAAAAAAAMH4/k4S4-dRz3t4/s320/HttpLongPolling.gif)
 
 - 서버에 요청 보내고 이벤트가 생겨 응답 받을 때까지 연결 종료 안됨
 - 많은 양의 메시지가 쏟아지면 polling과 동일
 
 <br>
 
-✔ `Streaming` : 서버에 요청을 보내고 끊기지 않은 연결상태에서 끊임없이 데이터 수신
-![Streaming](https://miro.medium.com/max/1344/1*OcvjVQjZXdth_jpObpo1HA.png)
+✔ `Streaming` : 서버에 요청을 보내고 끊기지 않은 연결상태에서 끊임없이 데이터 수신  
+
+![Streaming](http://4.bp.blogspot.com/-sRVlAdeU-Kw/ViZSWw-wB2I/AAAAAAAAMH0/3CmKGISDV-A/s320/HttpStreaming.gif)
 
 - 클라이언트에서 서버로의 데이터 송신이 어렵다
 
@@ -78,4 +81,5 @@ HTTP를 효과적으로 이용하는 기술로, 새로운 웹페이지로 이동
 > https://kotlinworld.com/75  
 > https://teach9186.tistory.com/64  
 > https://velog.io/@codingbotpark/Web-Socket-%EC%9D%B4%EB%9E%80  
-> https://inpa.tistory.com/entry/WEB-%F0%9F%8C%90-%EC%9B%B9-%EC%86%8C%EC%BC%93-Socket-%EC%97%AD%EC%82%AC%EB%B6%80%ED%84%B0-%EC%A0%95%EB%A6%AC
+> https://inpa.tistory.com/entry/WEB-%F0%9F%8C%90-%EC%9B%B9-%EC%86%8C%EC%BC%93-Socket-%EC%97%AD%EC%82%AC%EB%B6%80%ED%84%B0-%EC%A0%95%EB%A6%AC  
+> https://rubberduck-debug.tistory.com/123
