@@ -1,5 +1,6 @@
 # Sharding
 
+
 > 데이터를 분산하여 순차적으로 저장한다면 한대 이상에서 트래픽을 감당하기 때문에 부하를 분산하는 효과
 
 ![sh](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbCnsXP%2FbtrsRQh7FZ3%2F2dar45kEQGOrKKyXpHTgLk%2Fimg.png)
